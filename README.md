@@ -132,7 +132,8 @@ After installation of SAAVpedia in Python, You can see several SAAVpedia command
     Total estimated time: xxx
     
 ##### Example of SAAVretriever. 
-    $ python SAAVidentifier.py --input ./example/SAAVidentifier.input.txt --dta ./example/DTASelect-filter.txt 
+    $ python SAAVidentifier.py --input ./example/SAAVidentifier.input.txt 
+      --dta ./example/DTASelect-filter.txt 
     Reading the input file...
     Fetching output data...
     Estimated time for fetching data: xxx
@@ -140,7 +141,8 @@ After installation of SAAVpedia in Python, You can see several SAAVpedia command
     Total estimated time: xxx
     
  ##### Example of SAAVannotator. 
-    $ python SAAVidentifier.py --input ./example/SAAVidentifier.input.txt --dta_path ./example/DTA
+    $ python SAAVidentifier.py --input ./example/SAAVidentifier.input.txt 
+      --dta_path ./example/DTA
     Reading the input file...
     Fetching output data...
     Estimated time for fetching data: xxx
